@@ -1,0 +1,44 @@
+----------------------------------------------------------------------
+                        Diapositivas 5 - 8
+----------------------------------------------------------------------
+
+object[] vector = [
+       new Moto("Zanella"),
+       new Empleado("Juan"),
+       new Moto("Gilera")
+   ];
+
+foreach (object o in vector)
+{
+   // completar
+}
+
+
+
+// clases Persona, Empleado, Automotor y Moto
+
+class Persona
+{
+   protected string Nombre = "";
+}
+
+class Empleado : Persona
+{
+   public Empleado(string nombre)
+      => Nombre = nombre;
+   public void Imprimir()
+      => Console.WriteLine($"Soy el empleado {Nombre}");
+}
+
+class Automotor
+{
+   protected string Marca = "";
+}
+
+class Moto : Automotor
+{
+   public Moto(string marca)
+      => Marca = marca;
+   public void Imprimir()
+      => Console.WriteLine($"Soy una moto {Marca}");
+}
