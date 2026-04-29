@@ -13,7 +13,7 @@
       "request": "launch",
       "preLaunchTask": "build",
       // If you have changed target frameworks, make sure to update the program path.
-      "program": "${workspaceFolder}/proyectosDotnet/teoria6/bin/Debug/net10.0/teoria6.dll",
+      "program": "${workspaceFolder}/proyectosDotnet/teoria7/bin/Debug/net10.0/teoria7.dll",
       "args": [],
       "cwd": "${workspaceFolder}/proyectosDotnet/teoria1",
       // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
